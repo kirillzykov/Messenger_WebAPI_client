@@ -1,0 +1,4 @@
+{ "_id" : { "$oid" : "5c53355ce2cf6d9521e6bee2" }, "Name" : "john", "Email" : "jh321@gmail.com", "Password" : "123" }
+{ "_id" : { "$oid" : "5c55dc77c21d1185f0dfc7a0" }, "Email" : "zykov.ighor@mail.ru", "Name" : "Игорь", "Password" : "322" }
+{ "_id" : { "$oid" : "5c58dec536ed03329c54ab4d" }, "Email" : "maxrobust@gmail.com", "Name" : "MaxRobust", "Password" : "qwe" }
+{ "_id" : { "$oid" : "5c58f7a45466df841c73e1d8" }, "Email" : "davai@gmail.com", "Name" : "cok", "Password" : "ree" }
