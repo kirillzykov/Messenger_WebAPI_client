@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-using WebAPI_react_redux.Models;
-using WebAPI_react_redux.Services;
+using WebAPI_messenger.Models;
+using WebAPI_messenger.Services;
 
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -14,7 +14,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Antiforgery;
 using Microsoft.AspNetCore.Authorization;
 
-namespace WebAPI_react_redux.Controllers
+namespace WebAPI_messenger.Controllers
 {
     [Route("api/")]
     [ApiController]

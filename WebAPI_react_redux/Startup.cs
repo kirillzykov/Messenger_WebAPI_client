@@ -8,10 +8,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;
-using WebAPI_react_redux.Services;
-using WebAPI_react_redux.Hubs;
+using WebAPI_messenger.Services;
+using WebAPI_messenger.Hubs;
 
-namespace WebAPI_react_redux
+namespace WebAPI_messenger
 {
     public class Startup
     {

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebAPI_react_redux.Db
+namespace WebAPI_messenger.Db
 {
     public class Settings
     {

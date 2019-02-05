@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace WebAPI_react_redux.Models
+namespace WebAPI_messenger.Models
 {
     public class User
     {

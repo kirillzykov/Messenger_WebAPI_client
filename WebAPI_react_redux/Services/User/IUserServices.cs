@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebAPI_react_redux.Models;
+using WebAPI_messenger.Models;
 using MongoDB.Bson;
 
-namespace WebAPI_react_redux.Services
+namespace WebAPI_messenger.Services
 {
     public interface IUserServices
     {

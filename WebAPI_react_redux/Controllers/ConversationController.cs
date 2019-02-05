@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
-using WebAPI_react_redux.Models;
-using WebAPI_react_redux.Services;
+using WebAPI_messenger.Models;
+using WebAPI_messenger.Services;
 
-namespace WebAPI_react_redux.Controllers
+namespace WebAPI_messenger.Controllers
 {
     [Route("api/")]
     [ApiController]

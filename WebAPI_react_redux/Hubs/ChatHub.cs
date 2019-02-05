@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.SignalR;
 using System.Threading.Tasks;
-using WebAPI_react_redux.Models;
+using WebAPI_messenger.Models;
 
-namespace WebAPI_react_redux.Hubs
+namespace WebAPI_messenger.Hubs
 {
     public class ChatHub : Hub
     {

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI_react_redux", "WebAPI_react_redux\WebAPI_react_redux.csproj", "{CBA732DE-F881-477F-9CBE-937042B040F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI_messenger", "WebAPI_react_redux\WebAPI_messenger.csproj", "{CBA732DE-F881-477F-9CBE-937042B040F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

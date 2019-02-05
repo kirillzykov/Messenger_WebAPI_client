@@ -6,10 +6,10 @@ using MongoDB.Driver;
 using MongoDB.Bson;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
-using WebAPI_react_redux.Db;
-using WebAPI_react_redux.Models;
+using WebAPI_messenger.Db;
+using WebAPI_messenger.Models;
 
-namespace WebAPI_react_redux
+namespace WebAPI_messenger
 {
     public class Context
     {

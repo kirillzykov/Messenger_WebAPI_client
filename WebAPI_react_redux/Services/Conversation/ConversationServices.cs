@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebAPI_react_redux.Db;
-using WebAPI_react_redux.Models;
+using WebAPI_messenger.Db;
+using WebAPI_messenger.Models;
 using MongoDB.Bson;
 using MongoDB.Driver;
 using Microsoft.Extensions.Options;
 
-namespace WebAPI_react_redux.Services
+namespace WebAPI_messenger.Services
 {
     public class ConversationServices : IConversationServices
     {
