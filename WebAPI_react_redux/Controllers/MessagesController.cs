@@ -25,11 +25,10 @@ namespace WebAPI_messenger.Controllers
             dbMessages = context;
         }
 
-        [HttpPost]
-        [Route("GetMessages")]
-        public async Task<JsonResult> GetMessages(GetMessage model)
+        [HttpGet("GetMessages/{id}")]
+        public async Task<JsonResult> GetMessages(string id)
         {
-            List<Message> messages = await dbMessages.GetMessages(model.ConversationId);
+            List<Message> messages = await dbMessages.GetMessages(id);
             if (messages.Count == 0) { return new JsonResult("not found"); }
             return new JsonResult(messages);
         }

@@ -26,11 +26,10 @@ namespace WebAPI_messenger.Controllers
             dbUsers = contextUser;
         }
 
-        [HttpPost]
-        [Route("GetConversations")]
-        public async Task<JsonResult> GetConversations(GetConversation model)
+        [HttpGet("GetConversations/{id}")]
+        public async Task<JsonResult> GetConversations(string id)
         {
-            List<Conversation> conversations = await dbConversations.GetConversations(model.UserId);
+            List<Conversation> conversations = await dbConversations.GetConversations(id);
             List<ReturnConversation> returnConversations = new List<ReturnConversation>();
             if (conversations.Count == 0) { return new JsonResult("not found"); }
             Parallel.ForEach(conversations, async (conv) =>
