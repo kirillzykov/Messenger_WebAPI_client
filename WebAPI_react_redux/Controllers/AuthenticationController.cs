@@ -61,7 +61,7 @@ namespace WebAPI_messenger.Controllers
             {
                 await dbUsers.InsertUser(new User { Name = model.Name, Email = model.Email, Password = model.Password });
 
-                await Authenticate(model.Email);
+                //await Authenticate(model.Email);
 
                 return NoContent();
             }
